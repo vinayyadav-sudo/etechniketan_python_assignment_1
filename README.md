@@ -1,6 +1,4 @@
 # etechniketan_python_assignment_1
-# etechniketan_python_assignment_1
-
 # 1. Print all Python keywords
 import keyword
 print("Python Keywords:")
