@@ -6,43 +6,44 @@ print(keyword.kwlist)
 
 # 2. Create a variable x = 10 and print its type
 x = 10
-print("\nType of x:", type(x))
+print(x)
+print(type(x))
 
 # 3. Create a tuple with 4 numbers and print its last and second element
 t = (10, 20, 30, 40)
-print("\nLast element:", t[-1])
+print("Last element:", t[-1])
 print("Second element:", t[1])
 
 # 4. Convert string "123" into integer and add 10
 num = int("123")
 result = num + 10
-print("\nResult:", result)
+print("Result:", result)
 
 # 5. Convert a float number into an integer
 f = 12.75
 integer_value = int(f)
-print("\nInteger value:", integer_value)
+print("Integer value:", integer_value)
 
 # 6. Join two strings and find length
 str1 = "Hello"
 str2 = "World"
 new_string = str1 + " " + str2
-print("\nJoined String:", new_string)
+print("Joined String:", new_string)
 print("Length:", len(new_string))
 
 # 7. Boolean variable and its type
 flag = True
-print("\nType of flag:", type(flag))
+print("Type of flag:", type(flag))
 
 # 8. Find length of tuple
 tuple1 = (10, 20, 30, 40, 50)
-print("\nLength of tuple:", len(tuple1))
+print(len(tuple1))
 
 # 9. Create result = "Python3.13"
 language = "Python"
 version = 3.13
 result = language + str(version)
-print("\nResult:", result)
+print("Result:", result)
 
 # 10. Student details and percentage calculation
 name = input("\nEnter Student Name: ")
@@ -67,7 +68,7 @@ print("Percentage:", percent, "%")
 subjects = ["Python", "SQL", "Excel", "Tableau"]
 
 # a
-print("\nComplete List:", subjects)
+print(subjects)
 
 # b
 print("First Subject:", subjects[0])
@@ -97,7 +98,7 @@ attendance = True
 assignment_submitted = False
 
 # a
-print("\na. Operator for True:", attendance or assignment_submitted)
+print("a. Operator for True:", attendance or assignment_submitted)
 
 # b
 print("b. Operator for False:", attendance and assignment_submitted)
